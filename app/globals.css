@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+.signupModal {
+  height: 100;
+  width: 100;
+  padding: 60px;
+  background-color: rgb(26, 25, 25);
+  justify-content: center;
+  margin-left: 31%;
+  margin-right: 31%;
+  color: white;
+  margin-top: 5%;
+  display: block;
+  position: absolute;
+}
+.signupModal label {
+  margin-top: 2rem;
+}
+
+.signupModal button {
+  padding: 10px;
+  border: solid 2px rgb(45, 44, 44);
+  background-color: green;
+  margin-top: 10px;
+}
